@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+body {
+    font-family: Roboto;
+	background-color: #aaa;
+}
+
+
+h1 {
+	color: black;
+	margin-top: 400px;
+	font-size: 50px;
+}
+
+button {
+	background-color: transparent;
+	color: white;
+	font-size: 14px;
+	padding: 8px 20px;
+	border: 3px solid white;
+	outline: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: background .1s linear;
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+}
